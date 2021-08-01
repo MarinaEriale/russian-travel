@@ -5,3 +5,4 @@
 
 При создании проекта использованы технологии html, css, верстка с использованием flex и grid.
 
+Проект можно увидеть по адресу https://marinaeriale.github.io/russian-travel/
