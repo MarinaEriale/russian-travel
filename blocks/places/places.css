@@ -1,5 +1,5 @@
 .places {
-  max-width: calc (100vw - 2*148px);
+  max-width: calc(100vw - 2*148px);
   margin: 0 148px;
 }
 
@@ -23,3 +23,4 @@
     max-width: 100%;
   }
 }
+
