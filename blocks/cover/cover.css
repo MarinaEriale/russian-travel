@@ -1,9 +1,9 @@
 .cover {
   position: relative;
-  background-image: url(../../image/__background.jpg);
+  background-image: url(../../image/background.jpg);
   background-size: cover;
   background-position: center center;
-  height: 740px;
+  min-height: 740px;
   max-width: 1184px;
   margin: 92px 48px;
 }
@@ -21,27 +21,33 @@
 }
 
 .cover:hover::before {
-  background-color: #2A2C2F;
-  opacity: .6;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     margin: 90px 0 88px 0;
-    height: 480px;
+    min-height: 480px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .cover {
+    min-height: 200px;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .cover {
     margin: 66px 0 64px 0;
-    height: 200px;
+    min-height: 200px;
   }
 }

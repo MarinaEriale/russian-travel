@@ -9,7 +9,15 @@
 
 .place__link:hover {
   opacity: .8;
+  transition: opacity .5s ease-in-out;
 }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__link {
+    margin: 16px;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .place__link {
